@@ -1,0 +1,37 @@
+
+.container{
+        max-width: 1300px;
+        margin: 20px auto;
+        padding:10px;
+}
+.content_of_your_test{
+        background-color: white;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.15);
+}
+.content_of_your_test h2{
+        margin-bottom: 10px;
+        color: #1a1515;
+        border-bottom: 2px solid #041c36;
+        padding-bottom: 5px;
+}
+.box{
+        background:white;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        flex: 1 1 calc(25% - 20px);
+        min-width:180px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.9s;
+
+}
+.box:hover{
+        background:#011224;
+        color: white;
+        transform: translate(-3px);
+        box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.15);
+}
